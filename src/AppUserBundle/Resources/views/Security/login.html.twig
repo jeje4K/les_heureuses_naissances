@@ -15,11 +15,15 @@
 
                     <input type="text" id="username" name="_username" value="{{ last_username }}" required="required" placeholder="nom d'utilisateur"/>
 
-                    <label for="password">{{ 'security.login.password'|trans({}, 'FOSUserBundle') }}</label>
-                    <input type="password" id="password" name="_password" required="required" />
+                    <input type="password" id="password" name="_password" required="required" placeholder="mot de passe"/>
+                    
+                    <a href=""><p class="lead pull-right">
+                                    Mot de passe oublié ?
+                    </p></a>
+
                     <div class="radio-option">
-                    <div class="inner"></div>
-                    <input type="radio" id="remember_me" name="_remember_me" value="on" />
+                        <div class="inner"></div>
+                        <input type="radio" id="remember_me" name="_remember_me" value="on" />
                     </div>
                     <span><label for="remember_me">{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</label></span>
 
