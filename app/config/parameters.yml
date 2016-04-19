@@ -7,6 +7,6 @@ parameters:
     database_password: root
     mailer_transport: gmail
     mailer_host: 127.0.0.1
-    mailer_user: raouti.zakari@gmail.com
-    mailer_password: player92
+    mailer_user: testmaillesheureusesnaissances@gmail.com
+    mailer_password: ppdmiage2016
     secret: 99ce2ad709f98244ba5015e8d5661e068c4f9f54

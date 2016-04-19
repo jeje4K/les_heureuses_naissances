@@ -77,7 +77,7 @@ fos_user:
         confirmation:
             enabled:    true
             from_email:
-                address:        raouti.zakari@gmail.com
+                address:        testmaillesheureusesnaissances@gmail.com
                 sender_name:    Les Heureuses Naissances
 
 # Swiftmailer Configuration

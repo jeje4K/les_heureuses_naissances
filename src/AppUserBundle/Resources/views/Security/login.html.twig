@@ -17,9 +17,11 @@
 
     <label for="password">{{ 'security.login.password'|trans({}, 'FOSUserBundle') }}</label>
     <input type="password" id="password" name="_password" required="required" />
-
-    <input type="checkbox" id="remember_me" name="_remember_me" value="on" />
-    <label for="remember_me">{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</label>
+    <div class="radio-option">
+    <div class="inner"></div>
+    <input type="radio" id="remember_me" name="_remember_me" value="on" />
+    </div>
+    <span><label for="remember_me">{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</label></span>
 
     <input type="submit" id="_submit" name="_submit" value="{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}" />
 </form>
