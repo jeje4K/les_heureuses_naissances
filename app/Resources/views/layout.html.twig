@@ -92,10 +92,13 @@
                             </ul>
                         </div>
                         {% else %}
+                        <div class="module">                        
+                            <div class="module-right hidden-xs">
+                                <a href="{{path('fos_user_security_login')}}" class="btn btn-sm">Connexion</a>
+                                <a href="{{path('fos_user_registration_register')}}" class="btn btn-sm btn-filled" href="#">test</a>
+                            </div>
+                        </div>
 
-                        <a href="{{path('fos_user_security_login')}}"><button type="button" class="btn btn-success">Connexion</button></a>
-                        
-                            <a href="{{path('fos_user_registration_register')}}"><button type="button" class="btn btn-primary">Inscription</button></a>
 
 
                         {% endif %}
